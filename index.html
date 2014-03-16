@@ -33,17 +33,6 @@
             <div id="deviceready" class="blink">
                 <p class="event listening">подзагрузка</p>
                 <p class="event received">=))</p>
-                
-                document.addEventListener("deviceready", onDeviceReady, false);
-function onDeviceReady() {
-    navigator.globalization.getLocaleName(
-        function (locale) {
-            alert(locale.value);
-        },
-        function (error) {
-            alert(error);
-        });
-}
             </div>
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
